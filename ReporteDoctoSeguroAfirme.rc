@@ -1,0 +1,184 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGREPORTEDOCTOSEGUROAFIRME DIALOGEX 0, 0, 397, 284
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DOCUMENTOS DEL SEGURO DE VIDA"
+FONT 12, "Lucida Console Bold", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_FOLIOSEGURO,77,15,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "CONTRATO ORIGINAL Y ÚLTIMO RECIBO DE PAGO.",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,69,183,10
+    CONTROL         "ACTA DE NACIMIENTO ORIGINAL DEL ASEGURADO.",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,87,184,10
+    CONTROL         "ACTA DE DEFUNCIÓN ORIGINAL.",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,105,123,10
+    CONTROL         "LLENAR COMPLETAMENTE LAS DECLARACIONES DE LA ASEGURADORA.",
+                    IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,123,
+                    248,10
+    CONTROL         "COPIA DEL EXPEDIENTE CLÍNICO O CERTIFICADO DE DEFUNCIÓN.",
+                    IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,141,
+                    233,10
+    CONTROL         "ACTA DEL MINISTERIO PÚBLICO  (EN CASO DE MUERTE VIOLENTA).",
+                    IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,159,
+                    236,10
+    CONTROL         "ACTA DE NACIMIENTO ORIGINAL DE LOS BENEFICIARIOS Y COPIA DE IDENTIFICACIÓN CON FOTO.",
+                    IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,177,
+                    341,10
+    CONTROL         "ACTA DE NACIMIENTO ORIGINAL Y COPIA DE IDENTIFICACIÓN DEL TUTOR EN CASO DE BENEFICIARIOS MENORES DE EDAD.",
+                    IDC_CHECK8,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,27,195,357,17
+    CONTROL         "ACTA NOTARIADA DE QUIEN TENGA LA PATRIA POTESTAD O TUTELA DE LOS MENORES.",
+                    IDC_CHECK9,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,27,220,324,17
+    PUSHBUTTON      "<ESC> CANCELAR",IDCANCEL,241,261,67,14,NOT WS_VISIBLE | 
+                    NOT WS_TABSTOP
+    DEFPUSHBUTTON   "F10 MPRIMIR",IDOK,315,261,67,14,NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+    LTEXT           "FOLIO SEGURO",IDC_STATIC_FOLIO,19,20,51,8
+    LTEXT           "SELECCIONE CON LA BARRA ESPACIADORA LOS QUE RECOGIÓ",
+                    IDC_STATIC_SELECCIONE,19,41,224,8
+    GROUPBOX        "",IDC_STATIC,6,33,388,19
+    GROUPBOX        "",IDC_STATIC,6,0,388,284
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ReporteDoctoSeguroAfirme.dll"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "ReporteDoctoSeguroAfirme.dll"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLGREPORTEDOCTOSEGUROAFIRME, DIALOG
+    BEGIN
+        VERTGUIDE, 243
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

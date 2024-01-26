@@ -1,0 +1,7 @@
+; ReporteDoctoSeguroAfirme.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ReporteDoctoSeguroAfirme"
+
+EXPORTS
+    ; Explicit exports can go here
+	CA0068;

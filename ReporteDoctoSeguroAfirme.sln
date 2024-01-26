@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReporteDoctoSeguroAfirme", "ReporteDoctoSeguroAfirme.vcxproj", "{D06DEA4B-733A-4E26-88BE-1674DCBDE25C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D06DEA4B-733A-4E26-88BE-1674DCBDE25C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D06DEA4B-733A-4E26-88BE-1674DCBDE25C}.Debug|Win32.Build.0 = Debug|Win32
+		{D06DEA4B-733A-4E26-88BE-1674DCBDE25C}.Release|Win32.ActiveCfg = Release|Win32
+		{D06DEA4B-733A-4E26-88BE-1674DCBDE25C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
